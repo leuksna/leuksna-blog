@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
-        integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/e6931fa7d9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.Css">
     <title>Leuksna BLog</title>
@@ -20,7 +18,7 @@
     <section id="frame-nav" class="nav">
 
         <!--Top navigation-->
-        <span id="nav">
+        <nav id="top-nav">
             <a href="#">Home</a>
             <a href="#">Music</a>
             <a href="#">Text</a>
@@ -29,130 +27,131 @@
             <a href="#">Design</a>
             <a href="#">Leuksna Who?</a>
             <a href="#">Contact</a>
-        </span>
+        </nav>
 
-        <!--Left navigation-->
-        <br>
+        <!--Left vertical navigation+ main content div-->
+        <div id="side-nav-main" class="nav flex-column">
+            <ul class="side-nav">
+                <li> <a href="https://soundcloud.com/jac-aurora" target="blank"><i class="fab fa-soundcloud"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com/leuksna.concept/" target="blank"><i
+                            class="fab fa-instagram"></i></a>
+                </li>
+                <li><a href="https://www.facebook.com/Leuksnarecord/" target="blank"><i
+                            class="fab fa-facebook-square"></i></a></li>
+                <li id="subscribe">
+                    <a href="#">SUBSCRIBE</a>
+                </li>
+            </ul>
 
-        <nav id="nav" class="nav flex-column">
-            <a href="#"><i class="fab fa-soundcloud"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <span>
-                <button type="button" class="btn btn-link">SUBSCRIBE</button>
-            </span>
+
+            <!-- start of the main content/actual body-->
+            <section id="main-body" class="body">
+
+
+
+                <!--image galery actuality of the last 20 post clickable with redirection to article-->
+                <div class="gallery-section">
+                    <div class="inner-width">
+                        <h1>THAT'S WHAT'S UP</h1>
+                        <div class="border"></div>
+                        <div class="gallery">
+
+                            <a href="#" class="image">
+                                <img src="image/550x550cien.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550pink.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550mauve.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550pink.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550lime.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550mauve.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550cien.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550lime.png" alt="">
+                            </a>
+                            <a href="#" class="image">
+                                <img src="image/550x550cien.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550lime.png" alt="">
+                            </a>
+                            <a href="#" class="image">
+                                <img src="image/550x550cien.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550pink.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550mauve.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550pink.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550lime.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550mauve.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550cien.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550lime.png" alt="">
+                            </a>
+                            <a href="#" class="image">
+                                <img src="image/550x550cien.png" alt="">
+                            </a>
+
+                            <a href="#" class="image">
+                                <img src="image/550x550lime.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!--Footer navigation-->
+
+        <nav id="footer-nav"> <a href="#">Consultez les mentions légales</a>
+            <a href="#">Contact</a>
+            <a href="#">Cookies</a>
+            <a href="#">Fr</a>
         </nav>
 
 
 
-        <!-- start of the main content/actual body-->
-        <section id="main-body" class="body">
+        <!-- end of the main content/actual body-->
+    </section>
 
-
-
-            <!--image galery actuality of the last 20 post clickable with redirection to article-->
-            <div class="gallery-section">
-                <div class="inner-width">
-                    <h1>THAT'S WHAT'S UP</h1>
-                    <div class="border"></div>
-                    <div class="gallery">
-
-                        <a href="#" class="image">
-                            <img src="image/550x550cien.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550pink.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550mauve.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550pink.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550lime.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550mauve.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550cien.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550lime.png" alt="">
-                        </a>
-                        <a href="#" class="image">
-                            <img src="image/550x550cien.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550lime.png" alt="">
-                        </a>
-                        <a href="#" class="image">
-                            <img src="image/550x550cien.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550pink.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550mauve.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550pink.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550lime.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550mauve.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550cien.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550lime.png" alt="">
-                        </a>
-                        <a href="#" class="image">
-                            <img src="image/550x550cien.png" alt="">
-                        </a>
-
-                        <a href="#" class="image">
-                            <img src="image/550x550lime.png" alt="">
-                        </a>
-
-                    </div>
-                </div>
-            </div>
-
-            <!--Footer navigation-->
-
-            <span id="nav"> <a href="#">Consultez les mentions légales</a>
-                <a href="#">Contact</a>
-                <a href="#">Français</a>
-                <a href="#">Lifestyle</a>
-                <a href="#">news</a>
-            </span>
-
-
-
-            <!-- end of the main content/actual body-->
-        </section>
-
-        <!-- end of the color frame / navigation bar-->
+    <!-- end of the color frame / navigation bar-->
     </section>
 </body>
 

@@ -1,16 +1,82 @@
+/*************************************css resset**************************************/
+@import "resets/normalize.scss";
+@import "resets/reset.local.scss";
+@import "resets/typography.scss";
 
-/* overall Page layout*/
+/**************************************overall Page layout****************************/
 section{
     background-color: lawngreen;
     margin: 10px 10px;
-   
-    
-
+    padding-right: 50px;
 }
 
-/* Galery styling*/
-*{
+
+/******************************Links ****************************/
+
+/* unvisited link */
+a:link {
+    color: red;
+    text-decoration: none;
+  }
   
+  /* visited link */
+  a:visited {
+    color: yellow;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: none;
+  }
+
+  #subscribe{
+    writing-mode: vertical-rl;
+    padding: 10px;
+}
+
+
+/******************************Navigation ****************************/
+
+#top-nav {
+    font-size: larger;
+    text-align: right; 
+}
+
+#side-nav-main {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.side-nav li{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    position: sticky;
+}
+
+
+#footer-nav {
+    padding: 15px;
+    text-align: center;
+    font-size: larger;
+}
+
+
+
+/***********************************Galery styling************************/
+*{
     font-family: "montserrat",sans-serif;
     box-sizing: border-box;
     padding: 10px;
@@ -26,7 +92,8 @@ section{
   
   .inner-width{
     width: 100%;
-    max-width: 1200px;
+    max-width: 1900px;
+    min-width: ;
     margin: auto;
     padding: 0 20px;
   }
@@ -78,7 +145,7 @@ section{
     }
   }
   
-  @media screen and (max-width:480px) {
+  @media screen and (max-width:320px) {
     .gallery-section .image{
       flex: 100%;
     }
